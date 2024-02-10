@@ -3,47 +3,45 @@ import ContactForm from './Contactform';
 
 const Contact = () => {
   return (
-    <div className="container mx-auto mt-10 flex justify-center">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-4xl">
-        {/* Contact Form */}
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-          <ContactForm />
-        </div>
+      <div className="container mx-auto mt-10 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+          {/* Contact Form */}
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Send us your Query :</h2>
+            <ContactForm />
+          </div>
 
-        {/* Business Details */}
-        <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-          <div className="p-6">
-            <h2 className="text-3xl font-bold mb-4">Our Details</h2>
+          {/* Business Details */}
+          <div className="bg-gray-100 p-6 rounded-lg">
+            <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
 
             {/* Location */}
             <p className="text-gray-700 mb-2">
-              <strong>Location:</strong> Your Business Location
+              <strong>Location:</strong> Nairobi, Kenya
             </p>
 
             {/* Timing */}
             <p className="text-gray-700 mb-2">
-              <strong>Timing:</strong> Your Business Timing
+              <strong>Timing:</strong> Monday to Friday, 9:00 AM to 5:00 PM
             </p>
 
             {/* Email */}
             <p className="text-gray-700 mb-2">
-              <strong>Email:</strong> your@email.com
+              <strong>Email:</strong> info@seagatelogistic.com
             </p>
 
             {/* Phone Numbers */}
             <p className="text-gray-700 mb-2">
-              <strong>Phone Numbers:</strong> +1 123 456 7890, +1 987 654 3210
+              <strong>Phone Numbers:</strong> +254 123 456 789, +254 987 654 321
             </p>
 
             {/* Address */}
             <p className="text-gray-700 mb-2">
-              <strong>Address:</strong> Your Business Address
+              <strong>Address:</strong> 123 Main Street, Nairobi, Kenya
             </p>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
