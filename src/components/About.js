@@ -1,6 +1,7 @@
 import React from 'react';
 import CardList from './Views';
 import Footer from "./Footer";
+import Warehousing from '../minis/warehousing';
 const AboutUs = () => {
     return (
         <div className="container mx-auto mt-10">
@@ -14,7 +15,7 @@ const AboutUs = () => {
                     <div className="p-6">
                         <h2 className="text-3xl font-bold mb-5">Who We Are</h2>
                         <p className="text-gray-700">
-                            Founded in 2015 in Kericho, AtlasMara Logistics Kenya Ltd has evolved over the years into a multifaceted logistics service provider. Throughout our journey, we have consistently made our customers’ needs the focal point of our operations, ensuring their satisfaction remains our top priority. Our unwavering commitment to customer service has driven us to maintain the highest standards in all facets of our operations. We take pride in offering our customers comprehensive solutions under one roof, where reliability and professionalism are the cornerstones of our corporate culture.
+                            Founded in 2015 in  Nairobi, AtlasMara Logistics Kenya Ltd has evolved over the years into a multifaceted logistics service provider. Throughout our journey, we have consistently made our customers’ needs the focal point of our operations, ensuring their satisfaction remains our top priority. Our unwavering commitment to customer service has driven us to maintain the highest standards in all facets of our operations. We take pride in offering our customers comprehensive solutions under one roof, where reliability and professionalism are the cornerstones of our corporate culture.
                         </p>
                     </div>
                 </div>
@@ -22,7 +23,7 @@ const AboutUs = () => {
                     <div className="p-6">
                         <h2 className="text-3xl font-bold mb-4">Why Choose Us</h2>
                         <p className="text-gray-700">
-                            Founded in 2015 in Kericho, AtlasMara Logistics Kenya Ltd has evolved over the years into a multifaceted logistics service provider. Throughout our journey, we have consistently made our customers’ needs the focal point of our operations, ensuring their satisfaction remains our top priority. Our unwavering commitment to customer service has driven us to maintain the highest standards in all facets of our operations. We take pride in offering our customers comprehensive solutions under one roof, where reliability and professionalism are the cornerstones of our corporate culture.
+                            Founded in 2015 in Nairobi, AtlasMara Logistics Kenya Ltd has evolved over the years into a multifaceted logistics service provider. Throughout our journey, we have consistently made our customers’ needs the focal point of our operations, ensuring their satisfaction remains our top priority. Our unwavering commitment to customer service has driven us to maintain the highest standards in all facets of our operations. We take pride in offering our customers comprehensive solutions under one roof, where reliability and professionalism are the cornerstones of our corporate culture.
                         </p>
                     </div>
                     <img
@@ -33,6 +34,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <CardList/>
+            
             <Footer />
         </div>
     );
