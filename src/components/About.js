@@ -1,7 +1,7 @@
 import React from 'react';
 import CardList from './Views';
-import Footer from "./Footer";
-import Warehousing from '../minis/warehousing';
+import Footer from './Footer';
+
 const AboutUs = () => {
     return (
         <div className="container mx-auto mt-10">

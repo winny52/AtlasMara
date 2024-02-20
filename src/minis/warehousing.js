@@ -1,55 +1,48 @@
 import React from 'react';
 import leftImage1 from '../assets/warehouse1.jpg';
 import rightImage2 from '../assets/warehouse2.jpg';
-
+import leftImage2 from '../assets/warehouse3.jpg';
+// import rightImage3 from '../assets/warehouse4.jpg';
 
 const Warehousing = () => {
     return (
-        <div className="flex flex-col md:flex-row">
-            <div className="md:w-1/2">
-                <img src={leftImage1} alt="Left  1" className="w-full" />
+        <div className="container mx-auto py-8 px-4 md:px-0">
+            <div className="flex flex-col md:flex-row justify-center items-center md:items-start">
+                <div className="md:w-1/2">
+                    <img src={leftImage1} alt="Left 1" className="w-full rounded-lg shadow-lg mb-4 md:mb-0" />
+                </div>
+                <div className="md:w-1/2 md:pl-8">
+                    <h2 className="text-center md:text-left text-3xl font-semibold mb-4">Warehousing</h2>
+                    <p className="text-center md:text-left text-gray-700 leading-relaxed mb-8">AtlasMara Logistics provides tailored warehousing solutions to boost your business’s productivity and efficiency. With strategically located facilities and advanced methodologies, we ensure quality, operational excellence, and ongoing innovation.</p>
+                </div>
             </div>
-            <div className="md:w-1/2">
-                <h2 className="text-center md:text-left">Warehousing</h2>
-                <p className="text-center md:text-left">AtlasMara  Logistics provides tailored warehousing solutions to boost your business’s productivity and efficiency. With a strategically located 62,000 sq. ft. ambient-controlled warehouse at Port Qasim and two 25,000 sq. ft. warehouses in the Korangi industrial area, we cater to the needs of both large and small enterprises.
-
-Our methodology, built on collaboration, performance measurement tools, and advanced analysis, ensures quality, operational excellence, and ongoing innovation. This leads to reduced inefficiencies, increased consumer value, improved cash flow, and enhanced profitability for your business. Our warehouse facilities are well-equipped to meet your specific needs.
-
-We offer a comprehensive and cost-effective one-stop logistics solution, complete with value-added services such as repackaging, barcoding, product labeling, tagging, and customized promotional packaging for retail sales periods. </p>
+            <div className="flex flex-col md:flex-row justify-center items-center md:items-start mt-8">
+                <div className="md:w-1/2">
+                    <h2 className="text-center md:text-right text-3xl font-semibold mb-4">We Can Offer</h2>
+                    <p className="text-center md:text-right text-gray-700 leading-relaxed">Streamlined freight and carrier management, dedicated point of contact, total transparency and control over cargo, efficient rate negotiations, effective claims management, and consolidated freight payment coordination.</p>
+                </div>
+                <div className="md:w-1/2 md:order-last">
+                    <img src={rightImage2} alt="Right 2" className="w-full rounded-lg shadow-lg mb-4 md:mb-0" />
+                </div>
             </div>
-            <div className="md:w-1/2 order-last md:order-first">
-                <h2 className="text-center md:text-right">We can Offer</h2>
-                <p className="text-center md:text-right">Streamlined freight and carrier management.
-A dedicated point of contact for all your shipments.
-Total transparency and control over your cargo.
-Efficient rate and carrier negotiations for time and cost savings.
-Effective claims management for issue resolution.
-Consolidated freight payment coordination, saving time and administration costs.
-We offer our clients the benefits of our discounted shipping rates.</p>
+            <div className="flex flex-col md:flex-row justify-center items-center md:items-start mt-8">
+                <div className="md:w-1/2">
+                    <img src={leftImage2} alt="Left 1" className="w-full rounded-lg shadow-lg mb-4 md:mb-0" />
+                </div>
+                <div className="md:w-1/2 md:pl-8">
+                    <h2 className="text-center md:text-left text-3xl font-semibold mb-4">Our Key Features</h2>
+                    <p className="text-center md:text-left text-gray-700 leading-relaxed">Inventory management software, state-of-the-art security system, space for parking on container-based vehicles, cross-docking, and strategic location.</p>
+                </div>
             </div>
-            <div className="md:w-1/2">
-                <img src={rightImage2} alt="Right 2" className="w-full" />
+            <div className="flex flex-col md:flex-row justify-center items-center md:items-start mt-8">
+                <div className="md:w-1/2">
+                    <h2 className="text-center md:text-right text-3xl font-semibold mb-4">Value Added Services</h2>
+                    <p className="text-center md:text-right text-gray-700 leading-relaxed">On-site loading and discharging, secure leased closed warehousing facility, spacious leased open area for bulk storage, efficient pick and pack services, streamlined cross-docking operations, comprehensive services, expert packing solutions, and effective lashing and securing services.</p>
+                </div>
+                <div className="md:w-1/2 md:order-last">
+                    <img src={rightImage2} alt="Right 2" className="w-full rounded-lg shadow-lg mb-4 md:mb-0" />
+                </div>
             </div>
-            <div className="md:w-1/2">
-                <h2 className="text-center md:text-left">Our Key features</h2>
-                <p className="text-center md:text-left">Inventory management software.
-State-of-the-art security system
-Space for parking on 10 Container-based vehicles.
-Cross Docking
-Located in a highly developed industrial area.</p>
-            </div>
-            <div className="md:w-1/2 order-last md:order-first">
-                <h2 className="text-center md:text-right">Value Added Services</h2>
-                <p className="text-center md:text-right">On-site loading and discharging
-Secure leased closed warehousing facility
-Spacious leased open area for bulk storage
-Efficient pick and pack services
-Streamlined cross-docking operations
-Comprehensive services, including unloading, loading, storage, pick-pack, shrink wrapping, labeling, palletization, and detailed inventory reporting
-Expert packing solutions
-Effective lashing and securing services</p>
-            </div>
-            
         </div>
     );
 };

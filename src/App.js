@@ -6,6 +6,14 @@ import AboutUs from './components/About';
 import Contact from './components/Contact';
 import Home from "./components/Home";
 import Services from './components/Services';
+import Warehousing from "./minis/warehousing";
+import AirFreightComponent from "./minis/airfreight";
+import SeaFreight from "./minis/seafreight";
+import GlobalTransportationComponent from "./minis/global";
+import HazardousCargoComponent from "./minis/hazardous";
+import ReeferCargoComponent from "./minis/reefer";
+import CustomBrokerageComponent from "./minis/custom";
+
 
 function App() {
     return (
@@ -18,6 +26,15 @@ function App() {
                     <Route path='/Services' element={<Services />} />
                     <Route path='/Contact' element={<Contact />} />
                     <Route path='/' element={<Home />} />
+                    <Route path='/warehousing' element={<Warehousing/>}/>
+                    <Route path='/airfreight' element={<AirFreightComponent/>}/>
+                    <Route path='/seafreight' element={<SeaFreight/>}/>
+                    <Route path='/globaltransportation' element={<GlobalTransportationComponent/>}/>
+                    <Route path='/hazardouscargo' element={<HazardousCargoComponent/>}/>
+                    <Route path='/reefercargo' element={<ReeferCargoComponent/>}/>
+                    <Route path='/custombrokerage' element={<CustomBrokerageComponent/>}/>
+                    
+
                 </Routes>
             </div>
         </div>

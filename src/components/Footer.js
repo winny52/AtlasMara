@@ -13,9 +13,9 @@ const Footer = () => {
                     <nav className="flex space-x-4">
                         <ul className="flex space-x-4">
                             <li><a href="/" className="hover:text-blue-500">Home</a></li>
-                            <li><a href="/services" className="hover:text-blue-500">Services</a></li>
-                            <li><a href="/about-us" className="hover:text-blue-500">About Us</a></li>
-                            <li><a href="/contact-us" className="hover:text-blue-500">Contact Us</a></li>
+                            <li><a href="/Services" className="hover:text-blue-500">Services</a></li>
+                            <li><a href="/About" className="hover:text-blue-500">About Us</a></li>
+                            <li><a href="/Contact" className="hover:text-blue-500">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
