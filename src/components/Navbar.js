@@ -9,12 +9,12 @@ const Navbar = () => {
     };
 
     const handleServiceLinkClick = () => {
-        setShowServicesMenu(false); // Close the services menu
+        setShowServicesMenu(false); 
     };
 
     return (
         <nav className="bg-white shadow-lg">
-            <div className="container mx-auto px-6 py-4">
+            <div className="container  mx-auto px-6 py-4">
                 <div className="flex justify-between items-center">
                     <Link to="/" className="text-xl font-semibold text-gray-800">
                         Atlas Mara Logistics

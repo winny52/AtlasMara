@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTruck, faGlobe, faBox, faShip, faPlane, faKey, faExclamationTriangle, faAnchor, faThermometerHalf } from "@fortawesome/free-solid-svg-icons";
-import Footer from "./Footer";
+
+
 const ServiceCard = ({ title, description, iconName, link }) => {
     const icons = {
         "Warehousing": faTruck,
@@ -45,7 +46,7 @@ const ServiceCardList = () => {
 
     return (
         <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">Our Services</h2>
+            <h2 className="text-4xl text-black font-bold mb-4">Our Services</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {simpleCardsData.map((card, index) => (

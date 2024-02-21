@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactForm from './Contactform';
 import backgroundImage from '../assets/conback.jpg'; // Import the background image
-import Footer from './Footer';
+
 const Contact = () => {
   return (
       <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', minHeight: '100vh' }}>
@@ -29,17 +29,17 @@ const Contact = () => {
 
               {/* Email */}
               <p className="text-gray-700 mb-2">
-                <strong>Email:</strong> info@seagatelogistic.com
+                <strong>Email:</strong> info@atlasmara.com
               </p>
 
               {/* Phone Numbers */}
               <p className="text-gray-700 mb-2">
-                <strong>Phone Numbers:</strong> +254 123 456 789, +254 987 654 321
+                <strong>Phone Numbers:</strong> +254 735222222
               </p>
 
               {/* Address */}
               <p className="text-gray-700 mb-2">
-                <strong>Address:</strong> 123 Main Street, Nairobi, Kenya
+                <strong>Address:</strong> Gateway Mall,Nairobi, Kenya
               </p>
             </div>
           </div>

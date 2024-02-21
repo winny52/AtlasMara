@@ -1,5 +1,6 @@
 import React from 'react';
 import serviceImage from "../assets/services.jpg";
+import Footer from './Footer';
 
 // Individual service card component
 const ServiceCard = ({ title, description }) => {
@@ -54,28 +55,31 @@ const ServicesPage = () => {
     ];
 
     return (
-        <div className="container mx-auto px-4 py-8 bg-white">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <img src={serviceImage} alt="Services" className="w-full h-auto rounded-md shadow-md" />
+        <div>
+            <div className="container mx-auto px-4 py-8 bg-white">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <img src={serviceImage} alt="Services" className="w-full h-auto rounded-md shadow-md" />
+                    </div>
+                    <div>
+                        <h2 className="text-3xl font-bold mb-4">Our Services</h2>
+                        <p className="text-base leading-relaxed mb-6">
+                            With a decade of experience and a strong global agent network, we provide a wide range of comprehensive freight forwarding services, ensuring your cargo moves consistently, punctually, safely, and economically.
+                        </p>
+                        <ul className="list-disc pl-8">
+                            {services.map((service, index) => (
+                                <li key={index} className="text-base mb-2">{service.title}</li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-                    <p className="text-base leading-relaxed mb-6">
-                        With a decade of experience and a strong global agent network, we provide a wide range of comprehensive freight forwarding services, ensuring your cargo moves consistently, punctually, safely, and economically.
-                    </p>
-                    <ul className="list-disc pl-8">
-                        {services.map((service, index) => (
-                            <li key={index} className="text-base mb-2">{service.title}</li>
-                        ))}
-                    </ul>
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
+                    {services.map((service, index) => (
+                        <ServiceCard key={index} title={service.title} description={service.description} />
+                    ))}
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mt-8">
-                {services.map((service, index) => (
-                    <ServiceCard key={index} title={service.title} description={service.description} />
-                ))}
-            </div>
+            <Footer />
         </div>
     );
 };
