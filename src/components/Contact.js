@@ -19,13 +19,13 @@ const Contact = () => {
 
               {/* Location */}
               <p className="text-gray-700 mb-2">
-                <strong>Location:</strong> Nairobi, Kenya
+                <strong> Our Locations:</strong> 
+                <p>Nairobi, Kenya</p>
+                <p>Kampala,Uganda</p>
+                Dar Es Salaam,Tanzania
               </p>
 
-              {/* Timing */}
-              <p className="text-gray-700 mb-2">
-                <strong>Timing:</strong> Monday to Friday, 9:00 AM to 5:00 PM
-              </p>
+             
 
               {/* Email */}
               <p className="text-gray-700 mb-2">
@@ -34,12 +34,18 @@ const Contact = () => {
 
               {/* Phone Numbers */}
               <p className="text-gray-700 mb-2">
-                <strong>Phone Numbers:</strong> +254 735222222
+                <strong>Phone Numbers:</strong>
+                <p> Kenya +254 735 222 222                                             </p>
+                                              <p>Uganda +256 776 395 504</p>  
+                                                Tanzania +255 757 486 465
               </p>
 
               {/* Address */}
               <p className="text-gray-700 mb-2">
-                <strong>Address:</strong> Gateway Mall,Nairobi, Kenya
+                <strong>Address:</strong> 
+                Gateway Mall,Nairobi, Kenya
+                <p>Oyster Bay,Dar Es Salaam,Tanzania</p>
+                
               </p>
             </div>
           </div>
