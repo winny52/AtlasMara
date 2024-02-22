@@ -1,5 +1,7 @@
 import React from 'react';
 import seaFreightImage from '../assets/seafreight.png';
+import Footer from '../components/Footer'; // Import the Footer component
+
 const SeaFreight = () => {
   return (
     <div className="container mx-auto mt-10">
@@ -36,6 +38,7 @@ const SeaFreight = () => {
           </p>
         </div>
       </div>
+      <Footer /> {/* Include the Footer component */}
     </div>
   );
 };

@@ -14,6 +14,7 @@ import HazardousCargoComponent from "./minis/hazardous";
 import ReeferCargoComponent from "./minis/reefer";
 import CustomBrokerageComponent from "./minis/custom";
 import VesselCharteringComponent from "./minis/vessel";
+import ProjectCargoComponent from "./minis/projectcargo";
 
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
                     <Route path='/reefercargo' element={<ReeferCargoComponent/>}/>
                     <Route path='/custombrokerage' element={<CustomBrokerageComponent/>}/>
                     <Route path='/vesselchartering' element={<VesselCharteringComponent/>}/>
-
+                    <Route path='/projectcargo' element={<ProjectCargoComponent/>}/>
                 </Routes>
             </div>
         </div>

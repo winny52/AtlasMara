@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Card = ({ imageUrl, title, description }) => (
     <div className="max-w-md rounded-lg overflow-hidden shadow-lg mx-4 mb-8">
         <img className="w-full h-64 object-cover" src={imageUrl} alt={title} />
@@ -10,7 +9,6 @@ const Card = ({ imageUrl, title, description }) => (
         </div>
     </div>
 );
-
 
 const CardList = () => {
   const cardsData = [
@@ -34,7 +32,7 @@ const CardList = () => {
   return (
       <div className="text-center bg-gray-100 py-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 mx-auto max-w-2xl">Our Views</h2>
-        <div className="flex justify-center">
+        <div className="flex flex-wrap justify-center">
           {cardsData.map((card, index) => (
               <Card key={index} {...card} />
           ))}

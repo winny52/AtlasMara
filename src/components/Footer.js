@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Footer = () => {
-    const scrollToTop = () => {
-        window.scrollTo({ top:   0, behavior: 'smooth' });
-    };
+    // const scrollToTop = () => {
+    //     window.scrollTo({ top:   0, behavior: 'smooth' });
+    // };
 
     return (
         <footer className="bg-gray-800 text-white py-6">
@@ -23,9 +23,9 @@ const Footer = () => {
                     <p className="text-center">&copy; Copyright &nbsp;©&nbsp;   2023 Atlas Mara Logistics. All rights reserved.</p>
                     <p className="text-center mt-2">Our Location:  2nd Floor,Gateway Mall, Nairobi, Kenya</p>
                 </div>
-                <button onClick={scrollToTop} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                {/* <button onClick={scrollToTop} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Scroll to Top
-                </button>
+                </button> */}
             </div>
         </footer>
     );
