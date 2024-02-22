@@ -32,15 +32,15 @@ const ServiceCard = ({ title, description, iconName, link }) => {
 
 const ServiceCardList = () => {
     const simpleCardsData = [
-        { title: "Warehousing", description: "Atlasmara Logistics provides tailored warehousing solutions to boost your business’s productivity and efficiency. With a strategically located 62,000 sq. ft.", link: "/warehousing" },
-        { title: "Global Transportation", description: "At Atlasmara Logistics, our primary objective for door-to-door delivery is to seamlessly collect cargo from the shipper’s location and deliver it ", link: "/globaltransportation" },
+        { title: "Warehousing", description: "Atlas Mara  provides tailored warehousing solutions to boost your business’s productivity and efficiency. With a strategically located 62,000 sq. ft.", link: "/warehousing" },
+        { title: "Global Transportation", description: "At Atlas Mara our primary objective for door-to-door delivery is to seamlessly collect cargo from the shipper’s location and deliver it ", link: "/globaltransportation" },
         { title: "Project Cargo", description: "At Project & Energy Services, we excel in delivering comprehensive logistics project management, crafting creative and tailored transport strategies, and ", link: "/projectcargo" },
         { title: "Sea Freight", description: "With unwavering dedication to precision, reliability, and cost-efficiency, we offer tailored solutions that ensure the smooth flow of your global trade operations.", link: "/seafreight" },
         { title: "Air Freight", description: "\n" +
-                "At AtlasMara Logistics Pakistan Pvt. Ltd, we excel in providing top-tier air freight solutions that elevate your business to new heights. ", link: "/airfreight" },
-        { title: "Custom Brokerage", description: "Atlasmara Logistics  is an authorized customs clearance company in Pakistan, specializing in streamlining the intricate processes", link: "/custombrokerage" },
-        { title: "Hazardous Cargo", description: "With a wealth of expertise and knowledge inherited since our company’s inception, Seagate Logistics has consistently earned", link: "/hazardouscargo" },
-        { title: "Vessel Chartering", description: "Atlasmara Logistics provides Vessel Chartering, utilizing our extensive knowledge of ship owners and their fleet capacities by selecting", link: "/vesselchartering" },
+                "At Atlas Mara we excel in providing top-tier air freight solutions that elevate your business to new heights. ", link: "/airfreight" },
+        { title: "Custom Brokerage", description: "Atlas Mara   is an authorized customs clearance company in Pakistan, specializing in streamlining the intricate processes", link: "/custombrokerage" },
+        { title: "Hazardous Cargo", description: "With a wealth of expertise and knowledge inherited since our company’s Atlas Mara has consistently earned", link: "/hazardouscargo" },
+        { title: "Vessel Chartering", description: "Atlas Mara  provides Vessel Chartering, utilizing our extensive knowledge of ship owners and their fleet capacities by selecting", link: "/vesselchartering" },
         { title: "Reefer Cargo", description: "Refrigerated cargo logistics is all about precision – Customers need commodity expertise, seamless handovers, flexible processes", link: "/reefercargo" },
     ];
 

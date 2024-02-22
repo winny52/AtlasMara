@@ -15,7 +15,7 @@ const CardList = () => {
     {
       imageUrl: 'https://i.pinimg.com/564x/45/55/3d/45553da462098b9ac2a719705695cc6b.jpg',
       title: 'Our Vision',
-      description: 'We aim to emerge as the torchbearer in the logistics industry. Our vision is to establish AtlasMara Logistics as the most grounded logistics company as a trusted partner to all our clients. We envision to surpass our success & customer loyalty level year by year.',
+      description: 'We aim to emerge as the torchbearer in the logistics industry. Our vision is to establish Atlas Mara  as the most grounded logistics company as a trusted partner to all our clients. We envision to surpass our success & customer loyalty level year by year.',
     },
     {
       imageUrl: 'https://i.pinimg.com/736x/ed/b6/38/edb638aec68f6861a4001cf3cbbfe7ac.jpg',

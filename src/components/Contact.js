@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from './Contactform';
-import backgroundImage from '../assets/conback.jpg'; // Import the background image
+import backgroundImage from '../assets/conback.jpg'; 
 
 const Contact = () => {
   return (
@@ -44,6 +44,7 @@ const Contact = () => {
               <p className="text-gray-700 mb-2">
                 <strong>Address:</strong> 
                 Gateway Mall,Nairobi, Kenya
+                <p>Nakawa,Kampala</p>
                 <p>Oyster Bay,Dar Es Salaam,Tanzania</p>
                 
               </p>
