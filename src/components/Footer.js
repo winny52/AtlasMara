@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     // const scrollToTop = () => {
@@ -12,10 +13,10 @@ const Footer = () => {
                     <img src="https://i.pinimg.com/564x/2f/a1/b0/2fa1b03db70e56041dfeb48d8bd3251d.jpg" alt=" Atlas Mara Logistics Logo" className="h-10 w-auto" />
                     <nav className="flex space-x-4">
                         <ul className="flex space-x-4">
-                            <li><a href="/" className="hover:text-blue-500">Home</a></li>
-                            <li><a href="/Services" className="hover:text-blue-500">Services</a></li>
-                            <li><a href="/About" className="hover:text-blue-500">About Us</a></li>
-                            <li><a href="/contact" className="hover:text-blue-500">Contact Us</a></li>
+                            <li><Link to="/" className="hover:text-blue-500">Home</Link></li>
+                            <li><Link to="/services" className="hover:text-blue-500">Services</Link></li>
+                            <li><Link to="/about" className="hover:text-blue-500">About Us</Link></li>
+                            <li><Link to="/contact" className="hover:text-blue-500">Contact Us</Link></li>
                         </ul>
                     </nav>
                 </div>
